@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
     <title>Team SWE</title>
 </head>
+
 <body>
     <header>
-        <a href="index.html" class="log-in">
+        <a href="log-in.html" class="log-in">
             <img src="images/homeicon.png" alt="home icon" height="50" width="50">
         </a>
-        <center><div class="welcome-back-message"><strong>Welcome Back!</strong></div></center>
+        <center>
+            <div class="welcome-back-message">Welcome Back!</div>
+        </center>
     </header>
+    <section class="sign-up-link">
+        <form class="join-form">
+            <div class="input-group">
+                <label>Email:</label>
+                <input type="email">
+            </div>
+            <div class="input-group">
+                <label>Password:</label>
+                <input type="password">
+            </div>
+            <div class="input-group">
+                <button type="submit" class="button">Log In</button>
+            </div>
+        </form>
+        <div class="join-now-message">
+            <span class="join-now">Not already a registered user? </span>
+            <a href="signup.html" class="signup-link">Sign Up</a>
+            <span class="join-now"> with us today!</span>
+        </div>
+    </section>
+
+
 </body>
+
 </html>
