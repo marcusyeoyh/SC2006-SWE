@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #355C7D;
+    font-family: Poppins, sans-serif;
+    font-size: 4rem;
+    color: white;
+    min-height: 100vh;
+}
+
+.welcome-back-message{
+    font-weight: 900;
+    font-size: 4rem;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.log-in-body {
+    font-size: 0.25em;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    background-color: #C56C86;
+    border-radius: .5rem;
+    padding: .75rem 1.5rem;
+    color: inherit;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #CA8A9D;
+}
+
+.button:focus{
+    background-color: #CE4E74;
+}
+
+.signup-link{
+    color: #C56C86;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.join-form{
+    background-color: black;
+    width: 50vw;
+    max-width: 40%;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+    justify-content: center;
+    margin: auto;
+    align-items: right;
+}
+
+.input-group{
+    font-size: 1rem;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group:last-child{
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+.input-group:nth-child(2){
+    margin-bottom: 0;
+}
+
+.input-group label{
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.input-group input{
+    outline: none;
+    background: none;
+    border: 1px solid #939393;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: .5em;
+    color: inherit;
+}
+
+.input-group input:focus{
+    border-color: white;
+}
+
+.join-now-message{
+    text-align: center;
+}
+
+.password-reset{
+    text-align: right;
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.password-reset .pwordreset{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}

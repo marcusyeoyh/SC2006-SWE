@@ -1,0 +1,23 @@
+.location-search-input{
+    width: 30%;
+    text-align: center;
+    height: 40px;
+    border: solid 2px;
+}
+.autocomplete-dropdown-container{
+    width: 30%;
+    text-align: left;
+}
+
+.map{
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    bottom: 0px;
+    right: 0;
+
+}
+
+.autocomplete-dropdown-container{
+    position: absolute;
+}
